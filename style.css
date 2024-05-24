@@ -173,10 +173,39 @@ a {
 }
 
 .reviews__img {
+  width: 48px;
+  height: 48px;
 }
+.reviews__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 .reviews__rating {
 }
 
 .content__video {
+}
+.icon-star-full,
+.icon-star-half{
+  font-size: 26px;
+  color: #E0B420;
+}
+.reviews__rating__rat{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /*margin-bottom: 10px;*/
+
+}
+.reviews__rating-text{
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+text-align: center;
+}
+.content__video{
+  position: relative;
 }
